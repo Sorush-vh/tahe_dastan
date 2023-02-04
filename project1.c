@@ -364,8 +364,6 @@ void execute_command(struct orders *address,int arg_code){
     }
 
     if(arg_code==2) {
-        printf("&&&%d\n%d\n",address->position[0],address->position[1]);
-        
         insert_file(address->str_input,address->position[0],address->position[1],address->file_name);
 
     }
